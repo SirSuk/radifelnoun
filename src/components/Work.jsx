@@ -20,7 +20,7 @@ const Work = () => {
            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
 
                 {/* Grid Item */}
-                <div    style={{backgroundImage: `url(${netflix})`}}  
+                    <div style={{ backgroundImage: `url(${mv})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
 
                      {/* Hover Effects */}
@@ -56,7 +56,7 @@ const Work = () => {
                   </div>
                     </div>  
                 </div>   
-                <div    style={{backgroundImage: `url(${doce})`}}  
+                    <div style={{ backgroundImage: `url(${doce})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
 
                      {/* Hover Effects */}
@@ -74,7 +74,7 @@ const Work = () => {
                   </div>
                     </div>  
                 </div>   
-                <div    style={{backgroundImage: `url(${realEstate})`}}  
+                    <div style={{ backgroundImage: `url(${sprencia})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
 
                      {/* Hover Effects */}
@@ -98,18 +98,55 @@ const Work = () => {
                      {/* Hover Effects */}
                     <div className="opacity-0  group-hover:opacity-100 mt-12">
                         <span className="text-2xl font-bold text-white tracking-wider">
-                          Aplicación Bancaria v2
-                        </span>
-                    <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                        </a>
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                        </a>
-                  </div>
-                    </div>  
-                </div>   
+                                ANGULAR API CRUD BOOTSTRAP
+                            </span>
+                            <div className="pt-8 text-center">
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${memorygame})` }}
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
+
+                        {/* Hover Effects */}
+                        <div className="opacity-0 group-hover:opacity-100 mt-12">
+                            <span className="text-2xl font-bold text-white tracking-wider">
+                                Fullstack .NET ANGULAR BOOTSTRAP Survey App
+                            </span>
+                            <div className="pt-8 text-center">
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style={{ backgroundImage: `url(${opinlab})` }}
+                        className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
+
+                        {/* Hover Effects */}
+                        <div className="opacity-0 group-hover:opacity-100 mt-12">
+                            <span className="text-2xl font-bold text-white tracking-wider">
+                                Fullstack .NET ANGULAR BOOTSTRAP Survey App
+                            </span>
+                            <div className="pt-8 text-center">
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 <div    style={{backgroundImage: `url(${port})`}}  
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
 
