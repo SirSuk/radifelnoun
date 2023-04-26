@@ -7,11 +7,8 @@
 
 
 
-li {
-    cursor: pointer;
-}
-
-img{
+li,
+img {
     cursor: pointer;
 }
 
@@ -23,12 +20,43 @@ img{
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(112,157,255,0.8),
-        
-        hsla(242,74%, 61%, 0.8)
-        )!important;
+    background-image: linear-gradient(to right,
+            rgba(112, 157, 255, 0.8),
+
+            hsla(242, 74%, 61%, 0.8)) !important;
+}
+
+.icon {
+    width: 40px;
+    margin: 0 auto;
+}
+
+.animate-shake {
+    animation: shake 1s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
     }
 
+    20% {
+        transform: rotate(20deg);
+    }
 
+    40% {
+        transform: rotate(-20deg);
+    }
+
+    60% {
+        transform: rotate(20deg);
+    }
+
+    80% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
