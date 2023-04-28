@@ -31,7 +31,7 @@ const Contact = () => {
         <input className=" my-4 p-2 bg-[#ccd6f6]" type="text" placeholder="Email" name="email" />
         <textarea className="p-2 bg-[#ccd6f6]" name="message" placeholder="Message" rows="10"></textarea>
         <button className="text-white border 2 rounded-md hover:bg-amber-400 hover:text-black hover:font-bold hover:border-amber-400 px-4 py-4 my-8 mx-auto flex items-center" type="submit">
-          Contactame
+          Contact
         </button>
       </form>
     </div>

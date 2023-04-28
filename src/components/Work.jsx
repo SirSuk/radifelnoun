@@ -2,7 +2,7 @@ import React from 'react'
 import CSS from '..//assets/css.png'
 import JavaScript from '..//assets/javascript.png'
 import HTML from '..//assets/htm.png'
-import sprencia from "..//assets/sprenciapic.png"
+import todo from "..//assets/todo.png"
 import opinlab from "../assets/opinLAB.png"
 import got from "../assets/got.png"
 import platziStore from "../assets/platziAPI.png"
@@ -13,7 +13,7 @@ import todohuerta from "..//assets/todoapp-mododia.jpg"
 import memorygame from "..//assets/animalmemorygame.jpg"
 import Angular from '..//assets/ang.png'
 import ReactImg from '..//assets/react.png'
-import Node from '..//assets/node.png'
+import Sass from '..//assets/sass.png'
 import Boot from '..//assets/boot-removebg-preview.png'
 import Tailwind from '..//assets/tailwind.png'
 
@@ -49,14 +49,14 @@ const Work = () => {
                                 <img className="icon" src={Boot} alt="Boot" />
                             </div>
                             <div>
-                                <p className="text-[12px] w-30 pt-2 px-2">Application of internal surveys among employees, working with a team enviroment , agile methodology(SCRUM).NET, entity framework, SQL, Angular, Bootstrap.</p>
+                                <p className="text-[12px] w-30 pt-2 px-2"> </p>
                             </div>
                             <div className="pt-2 text-center">
                                 <a href="https://youtu.be/EGiRlQ14LDc" target="_blank" rel="noopener noreferrer">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Video</button>
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Video 1</button>
                                 </a>
-                                <a href="https://dev.azure.com/BRAVENT-DEADPOOL/BRAVENT-DEADPOOL" target="_blank" rel="noopener noreferrer">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                <a href="https://youtu.be/fm1r2nN3dtA" target="_blank" rel="noopener noreferrer">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Video 2</button>
                                 </a>
                             </div>
                         </div>
@@ -141,31 +141,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${sprencia})` }}
-                        className="shadow-lg border border-solid shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
 
-                        {/* Hover Effects */}
-                        <div className="opacity-0 group-hover:opacity-100 mt-3 text-center">
-                            <span className="text-xl font-bold text-white tracking-wider">
-                                Sprencia Fullstack APP</span>
-                            <div className="flex mt-2">
-                                <img className="icon" src={Node} alt="ReactImg" />
-                                <img className="icon" src={Angular} alt="Tailwind" />
-                                <img className="icon" src={Boot} alt="Framer" />
-                            </div>
-                            <div>
-                                <p className="text-[12px] w-30 pt-2 px-2">Node.js/Angular full-stack app for selling courses and activities is a web app that allows users to browse, purchase, and participate in various activities offered by a provider. </p>
-                            </div>
-                            <div className="pt-2 text-center">
-                                <a href="https://next-metaverse-framermotion.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                                </a>
-                                <a href="https://github.com/SirSuk/metaverse-Nextjs" target="_blank" rel="noopener noreferrer">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
 
                     <div style={{ backgroundImage: `url(${got})` }}
                         className="shadow-lg border border-solid shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
@@ -183,10 +159,10 @@ const Work = () => {
                                 <p className="text-[12px] w-30 pt-2 px-2">This app fetches data from the Game of Thrones API and provides users with character, house, and episode information. </p>
                             </div>
                             <div className="pt-2 text-center">
-                                <a href="https://memorygame-v2.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://series-mauve.vercel.app/series" target="_blank" rel="noopener noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                                 </a>
-                                <a href="https://github.com/SirSuk/memorygame-v2" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/SirSuk/series" target="_blank" rel="noopener noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>
                             </div>
@@ -226,8 +202,8 @@ const Work = () => {
                             <span className="text-xl font-bold text-white tracking-wider">
                                 Todo APP Hortelano</span>
                             <div className="flex mt-2">
-                                <img className="icon" src={Angular} alt="Angular" />
-                                <img className="icon" src={Boot} alt="Bootstrap" />
+                                <img className="icon" src={Sass} alt="SASS" />
+                                <img className="icon" src={JavaScript} alt="Javascript" />
                                 <img className="icon" src={CSS} alt="CSS" />
                             </div>
                             <div>
@@ -238,6 +214,30 @@ const Work = () => {
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                                 </a>
                                 <a href="https://github.com/SirSuk/todohuerta" target="_blank" rel="noopener noreferrer">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ backgroundImage: `url(${todo})` }}
+                        className="shadow-lg border border-solid shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div">
+
+                        {/* Hover Effects */}
+                        <div className="opacity-0 group-hover:opacity-100 mt-3 text-center">
+                            <span className="text-xl font-bold text-white tracking-wider">
+                                React Todo App</span>
+                            <div className="flex mt-2">
+                                <img className="icon" src={CSS} alt="CSS icon" />
+                                <img className="icon" src={ReactImg} alt="React icon" />
+                            </div>
+                            <div>
+                                <p className="text-[12px] w-30 pt-2 px-2">One of my first React apps. Implemented localstorage save of the todos, complete CRUD (add,delete,edit). Using Vanilla CSS for styles.</p>
+                            </div>
+                            <div className="pt-2 text-center">
+                                <a href="https://next-metaverse-framermotion.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                </a>
+                                <a href="https://github.com/SirSuk/metaverse-Nextjs" target="_blank" rel="noopener noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>
                             </div>
